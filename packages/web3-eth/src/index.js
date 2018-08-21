@@ -385,6 +385,13 @@ var Eth = function Eth() {
             inputFormatter: [formatter.inputLogFormatter],
             outputFormatter: formatter.outputLogFormatter
         }),
+        new Method({
+            name: 'getAccountInfo',
+            call: 'eth_getAccountInfo',
+            params: 2,
+            inputFormatter: [formatter.inputAddressFormatter, formatter.inputDefaultBlockNumberFormatter],
+            outputFormatter: formatter.outputAccountInfoFormatter
+        }),
 
         // subscriptions
         new Subscriptions({

@@ -416,6 +416,30 @@ var outputSyncingFormatter = function(result) {
     return result;
 };
 
+/**
+ * Formats the output of account info to its proper values
+ *
+ * @method outputAccountInfoFormatter
+ * @param {Object} info
+ * @returns {Object}
+*/
+var outputAccountInfoFormatter = function (info){
+    if(typeof info !== 'object') {
+        throw new Error('Received info is invalid: '+ info);
+    }
+
+    if(info.LatestProviderReputation !== null)
+        info.LatestProviderReputation = utils.hexToNumber(info.LatestProviderReputation);
+    if(info.LatestRequesterReputation !== null)
+        info.LatestRequesterReputation = utils.hexToNumber(info.LatestRequesterReputation);
+    if(info.ProviderReputation !== null)
+        info.ProviderReputation = utils.hexToNumber(info.ProviderReputation);
+    if(info.RequesterReputation !== null)
+        info.RequesterReputation = utils.hexToNumber(info.RequesterReputation);
+
+    return info;
+};
+
 module.exports = {
     inputDefaultBlockNumberFormatter: inputDefaultBlockNumberFormatter,
     inputBlockNumberFormatter: inputBlockNumberFormatter,
@@ -431,6 +455,7 @@ module.exports = {
     outputBlockFormatter: outputBlockFormatter,
     outputLogFormatter: outputLogFormatter,
     outputPostFormatter: outputPostFormatter,
-    outputSyncingFormatter: outputSyncingFormatter
+    outputSyncingFormatter: outputSyncingFormatter,
+    outputAccountInfoFormatter: outputAccountInfoFormatter
 };
 
