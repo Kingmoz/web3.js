@@ -1,9 +1,9 @@
 {
-    "name": "web3-utils",
+    "name": "eubweb3-utils",
     "namespace": "ethereum",
     "version": "1.0.0-beta.35",
     "description": "Collection of utility functions used in web3.js.",
-    "repository": "https://github.com/ethereum/web3.js/tree/master/packages/web3-utils",
+    "repository": "https://github.com/Kingmoz/web3.js/tree/eub-develop/packages/web3-utils",
     "license": "LGPL-3.0",
     "main": "src/index.js",
     "dependencies": {

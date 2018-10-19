@@ -1,5 +1,5 @@
 {
-  "name": "eub-web3",
+  "name": "eubweb3",
   "namespace": "ethereum",
   "version": "1.0.0-beta.35",
   "description": "JavaScript API wrapper repository for EUB Chain",
