@@ -1,14 +1,14 @@
 {
     "name": "eubweb3-eth-abi",
     "namespace": "ethereum",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Web3 module encode and decode EVM in/output.",
     "repository": "https://github.com/Kingmoz/web3.js/tree/eub-develop/packages/web3-eth-abi",
     "license": "LGPL-3.0",
     "main": "src/index.js",
     "dependencies": {
         "bn.js": "4.11.6",
-        "eubweb3-core-helpers": "1.0.1",
+        "eubweb3-core-helpers": "1.0.2",
         "eubweb3-utils": "1.0.1",
         "underscore": "1.8.3"
     }
