@@ -1,7 +1,7 @@
 {
   "name": "eubweb3",
   "namespace": "ethereum",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Ethereum JavaScript API",
   "repository": "https://github.com/Kingmoz/web3.js/tree/eub-develop/packages/web3",
   "license": "LGPL-3.0",
@@ -44,11 +44,11 @@
   ],
   "dependencies": {
     "eubweb3-bzz": "1.0.1",
-    "eubweb3-core": "1.0.2",
-    "eubweb3-eth": "1.0.2",
-    "eubweb3-eth-personal": "1.0.2",
-    "eubweb3-net": "1.0.2",
-    "eubweb3-shh": "1.0.2",
+    "eubweb3-core": "1.0.3",
+    "eubweb3-eth": "1.0.3",
+    "eubweb3-eth-personal": "1.0.3",
+    "eubweb3-net": "1.0.3",
+    "eubweb3-shh": "1.0.3",
     "eubweb3-utils": "1.0.1"
   }
 }

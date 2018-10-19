@@ -1,7 +1,7 @@
 {
     "name": "eubweb3-core-helpers",
     "namespace": "ethereum",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "Web3 core tools helper for sub packages. This is an internal package.",
     "repository": "https://github.com/Kingmoz/web3.js/tree/eub-develop/packages/web3-core-helpers",
     "license": "LGPL-3.0",
