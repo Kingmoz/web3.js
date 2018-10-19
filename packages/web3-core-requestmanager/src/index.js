@@ -24,7 +24,7 @@
 
 
 var _ = require('underscore');
-var errors = require('web3-core-helpers').errors;
+var errors = require('eubweb3-core-helpers').errors;
 var Jsonrpc = require('./jsonrpc.js');
 var BatchManager = require('./batch.js');
 var givenProvider = require('./givenProvider.js');
@@ -50,9 +50,9 @@ var RequestManager = function RequestManager(provider) {
 RequestManager.givenProvider = givenProvider;
 
 RequestManager.providers = {
-    WebsocketProvider: require('web3-providers-ws'),
-    HttpProvider: require('web3-providers-http'),
-    IpcProvider: require('web3-providers-ipc')
+    WebsocketProvider: require('eubweb3-providers-ws'),
+    HttpProvider: require('eubweb3-providers-http'),
+    IpcProvider: require('eubweb3-providers-ipc')
 };
 
 
