@@ -1,7 +1,7 @@
 {
     "name": "eubweb3-bzz",
     "namespace": "ethereum",
-    "version": "1.0.0-beta.35",
+    "version": "1.0.1",
     "description": "Web3 module to interact with the Swarm network.",
     "repository": "https://github.com/Kingmoz/web3.js/tree/eub-develop/packages/web3-bzz",
     "license": "LGPL-3.0",

@@ -1,14 +1,14 @@
 {
     "name": "eubweb3-net",
     "namespace": "ethereum",
-    "version": "1.0.0-beta.35",
+    "version": "1.0.1",
     "description": "Web3 module to interact with the Ethereum nodes networking properties.",
     "repository": "https://github.com/Kingmoz/web3.js/tree/eub-develop/packages/web3-net",
     "license": "LGPL-3.0",
     "main": "src/index.js",
     "dependencies": {
-        "eubweb3-core": "1.0.0-beta.35",
-        "eubweb3-core-method": "1.0.0-beta.35",
-        "eubweb3-utils": "1.0.0-beta.35"
+        "eubweb3-core": "1.0.1",
+        "eubweb3-core-method": "1.0.1",
+        "eubweb3-utils": "1.0.1"
     }
 }
